@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje</label> 
+            <textarea maxlength="10" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="opciones">Opciones</label>
+            <select name="opciones" id="opciones">
+                <option value=""></option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
